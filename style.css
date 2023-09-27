@@ -1,0 +1,42 @@
+ /* Styles CSS pour la mise en page */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOABmnV3cxgwsckyr6wgvAObhel6jOTtb_A&usqp=CAU");
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p {
+    line-height: 1.6;
+}
+/* Styles CSS pour les icônes Font Awesome */
+.fas, .fab {
+    font-size: 24px; /* Taille de base pour les icônes */
+}
+/* Animation de fondu au survol de l'icône */
+.fas.fa-phone:hover {
+    opacity: 0.7; /* Réduire l'opacité au survol */
+    transition: opacity 0.3s ease-in-out; /* Durée et courbe d'animation */
+}
+/* Styles CSS pour la réactivité */
+@media (max-width: 768px) {
+    .fas, .fab {
+        font-size: 20px; /* Réduire la taille sur les écrans plus petits */
+    }
+}
